@@ -1,24 +1,24 @@
 # Hogwarts Spell & Potion Manager
 
-Μια εφαρμογή για διαχείριση μαγικών αντικειμένων, όπως ξόρκια και φίλτρα, και προβολή των αντίστοιχων ιδιοτήτων τους.
+An application designed for magic item management, such as spells and potions, and viewing of their equivalent properties.
 
-## Τεχνολογίες
+## Τechnologies
 
-### Για το frontend, χρησιμοποιήθηκαν:
+### Frontend:
 - HTML
 - CSS
 - Vanilla JavaScript
 
-## Δομή εφαρμογής
+## App structure
 
-Η εφαρμογή υλοποιήθηκε κάνοντας χρήση HTML, CSS και Vanilla JavaScript σε ένα ενιαίο αρχείο (`hogwarts_2mon.html`).
-Δεν απαιτείται σύνδεση με εξωτερικά αρχεία, υπηρεσίες backend ή βάσεις δεδομένων.
+The application has been implemented using HTML, CSS and Vanilla JavaScript in one global file (`hogwarts_2mon.html`).
+No connection to external files, backend services or databases is further required.
 
-## Λειτουργικότητα εφαρμογής
+## App functionality
 
-Η εφαρμογή επιτρέπει στον χρήστη:
+This app allows the user to:
 
-- Προσθήκη νέου μαγικού αντικειμένου (ξόρκι/φίλτρο)
+- Add a new magical item (spell/potion)
 - Προβολή λίστας όλων των αντικειμένων
 - Διαγραφή αντικειμένου
 - Αλλαγή κατάστασης (toggle status)
