@@ -19,26 +19,26 @@ No connection to external files, backend services or databases is further requir
 This app allows the user to:
 
 - Add a new magical item (spell/potion)
-- Προβολή λίστας όλων των αντικειμένων
-- Διαγραφή αντικειμένου
-- Αλλαγή κατάστασης (toggle status)
-- Αναβάθμιση δύναμης κατά +5, μέχρι το μέγιστο όριο (100)
+- View all items list
+- Delete item
+- Toggle status
+- Upgrade power by +5, up to the maximum limit (100)
 
-## Περιγραφή πεδίων
+## Fields description
 
-Κάθε μαγικό αντικείμενο περιλαμβάνει τα εξής χαρακτηριστικά:
+Each magical item consists of the features below:
 
-- Όνομα (πρέπει να είναι μοναδικό)
-- Τύπος (Ξόρκι/Φίλτρο)
-- Στοιχείο (Φωτιά, Πάγος, Αστραπή, Γη)
-- Δύναμη (1-100)
-- Σπανιότητα (Κοινό, Σπάνιο, Επικό, Θρυλικό, Ουάου)
-- Περιγραφή
-- Κατάσταση
-    - **Ξόρκια:** Μη μαθημένο/Μαθημένο
-    - **Φίλτρα:** Μη παρασκευασμένο/Παρασκευασμένο
+- Name (must be unique)
+- Type (Spell/Potion
+- Element (Fire, Ice, Lightning, Earth)
+- Power (1-100)
+- Rarity (Common, Rare, Epic, Legendary, Wow)
+- Description
+- State
+    - **Spells:** Unlearned/Learned
+    - **Potions:** Unbrewed/Brewed
 
-## Βήματα Εκτέλεσης
+## Execution Steps
 
 Η εφαρμογή είναι πλήρως client-side και δεν απαιτεί server.
 
