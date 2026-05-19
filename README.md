@@ -1,40 +1,42 @@
 # Hogwarts Spell & Potion Manager
 
-Μια εφαρμογή για διαχείριση μαγικών αντικειμένων, όπως ξόρκια και φίλτρα, και προβολή των αντίστοιχων ιδιοτήτων τους.
+An application designed for magic item management and properties view, such as spells and potions.
 
-## Τεχνολογίες
+## Technologies
 
-### Για το frontend, χρησιμοποιήθηκαν:
+### Front-end:
 - HTML
 - CSS
 - Vanilla JavaScript
 
-#### **Σημείωση:**
-Στο frontend, οι τύποι εμφανίζονται στα ελληνικά (“Ξόρκι” / “Φίλτρο”) για να ακολουθήσουν την εκφώνηση, ενώ στο backend χρησιμοποιούνται οι αντίστοιχοι αγγλικοί τύποι (“Spell” / “Potion”).
+#### **NOTE:**
+In the front-end version of the application, types are being used in Greek (“Ξόρκι” / “Φίλτρο”).
 
-### Για το backend και τη διαχείριση βάσης δεδομένων, χρησιμοποιήθηκαν:
+In the back-end version of the application, equivalent types in English are being used (“Spell” / “Potion”).
+
+### Back-end/Database Management:
 - Node.js
 - ExpressJS
 - MongoDB Atlas
 - Mongoose
-- Postman (για API Testing)
+- Postman (for API Testing)
 
-## Δομή εφαρμογής
+## App Structure
 
-Η εφαρμογή οργανώθηκε βάσει της αρχιτεκτονικής MVC.
+App structure is based on MVC architecture.
 
-- **Models:** Ορισμός schema
-- **Controllers:** Λογική εφαρμογής
-- **Routes:** Διαχείριση διαδρομών/endpoints
-- **Config:** Σύνδεση με MongoDB
-- **Data:** Αρχείο JSON με δεδομένα
-- **Server:** Εκκίνηση εφαρμογής
+- **Models:** Set schema
+- **Controllers:** App logic
+- **Routes:** Manage routes/endpoints
+- **Config:** Connect to MongoDB (MongoDB Atlas)
+- **Data:** JSON file, equipped with data
+- **Server:** App launch
 
-## Βήματα εκτέλεσης της εφαρμογής
+## App execution steps
 
-Για βέλτιστη απόδοση, είναι προτιμότερη η εκτέλεση της εφαρμογής μέσω Visual Studio Code και χρήση της τεχνολογίας MongoDB Atlas.
+For best performance, executing the app through Visual Studio Code and MongoDB Atlas is highly preferred.
 
-### 1. Ανοίγουμε νέο τερματικό εντός του code editor που χρησιμοποιούμε, πχ. Visual Studio Code, με κατεύθυνση προς το φάκελο στον οποίο υπάρχουν τα στοιχεία της εφαρμογής.
+### 1. Open a new Terminal window inside your code editor (ie. Visual Studio Code), switched to the directory where app elements exist.
 
 Συνιστάται η χρήση Command Prompt (cmd), για πλήρη συμβατότητα με το Node.js
 
