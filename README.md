@@ -11,7 +11,7 @@ An application designed for magic item management, such as spells and potions, a
 
 ## App structure
 
-The application has been implemented using HTML, CSS and Vanilla JavaScript in one global file (`hogwarts_2mon.html`).
+The application has been implemented using HTML, CSS and Vanilla JavaScript in one global file (`hogwarts_2mon.html`) located in this repository.
 No connection to external files, backend services or databases is further required.
 
 ## App functionality
