@@ -40,7 +40,7 @@ Each magical item consists of the features below:
 
 ## Execution Steps
 
-Η εφαρμογή είναι πλήρως client-side και δεν απαιτεί server.
+The application is client-side and does not require a server to operate fully.
 
 ### 1. Άνοιγμα αρχείου
 
