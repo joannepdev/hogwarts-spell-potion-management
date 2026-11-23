@@ -38,65 +38,65 @@ For best performance, executing the app through Visual Studio Code and MongoDB A
 
 ### 1. Open a new Terminal window inside your code editor (ie. Visual Studio Code), switched to the directory where app elements exist.
 
-Συνιστάται η χρήση Command Prompt (cmd), για πλήρη συμβατότητα με το Node.js
+The use of Command Prompt (cmd) is recommended, to support full Node.js compatibility.
 
-### 2. Μετάβαση στο φάκελο του project
+### 2. Head to the project folder
 
-Πληκτρολογούμε την εντολή:
+Type in the command below:
 
         cd magic-api
 
-εντός του τερματικού, για να μεταβούμε στο φάκελο του project στο οποίο περιέχονται οι υποφάκελοι και τα αντίστοιχα αρχεία.
+inside the terminal, in order to head to the project folder where sub-folders and files are included.
 
-### 3. Δημιουργία αρχείου .env στον φάκελο του project
+### 3. Create an .env file inside the project folder
 
-Δημιουργούμε ένα αρχείο στο βασικό φάκελο του project `(magic-api)`, το οποίο θα περιέχει τα στοιχεία που απαιτούνται για τη ρύθμιση παραμέτρων στο κομμάτι της συνδεσιμότητας.
+Create a file inside the core project folder `(magic-api)`, which will include the items required for accessibility settings configuration.
 
-Το αρχείο, περιέχει τη θύρα (PORT) και το Uniform Resource Indicator (URI) της MongoDB, για τη σύνδεση στη βάση δεδομένων.
+The file consists of the port (PORT) and the Uniform Resource Indicator (URI) of MongoDB, in order to connect to the database.
 
-- #### Uniform Resource Indicator: συνήθως περιέχει το username και password του διαχειριστή της βάσης δεδομένων, για τη σύνδεση στη βάση είτε τοπικά, ή online, κάνοντας χρήση της πλατφόρμας MongoDB Atlas
+- #### Uniform Resource Indicator: It usually consists of the username and password of the database admin, in order to connect to the database locally or online, using MongoDB Atlas.
 
-### 4. Εγκατάσταση εξαρτήσεων
+### 4. Install Dependencies
 
-Πριν την εκτέλεση της εφαρμογής, καλό (και προτιμότερο) θα ήταν να εγκατασταθούν κάποιες εξαρτήσεις (dependencies). Οι εξαρτήσεις αυτές, παρέχονται από το framework Node.js, συμβάλλουν στην καλύτερη λειτουργία της εφαρμογής και την υποστήριξη μέσω πακέτων.
+Before executing the application, it is best and recommended to install some dependencies. These dependencies are provided by the Node.js framework and support best application functionality and packages.
 
-Για την εγκατάσταση των εξαρτήσεων, πληκτρολογούμε την εντολή:
+In order to install dependencies, type in the command below:
 
     npm install express mongoose dotenv
 
-εντός του τερματικού.
+inside the terminal
 
-### **ΣΗΜΑΝΤΙΚΟ:** Προηγείται η ολοκλήρωση του βήματος 2 (μετάβαση στον φάκελο του project μέσω εντολής τερματικού) για να πραγματοποιηθεί η εγκατάσταση των εξαρτήσεων εντός του φακέλου magic-api!!!
+### **IMPORTANT:** Step 2 must be completed first (head to the project folder using a command inside the terminal project) in order to install dependencies inside the magic-api folder!!!
 
-### Εξαρτήσεις που χρησιμοποιήθηκαν:
-- dotenv (πρόσβαση σε μεταβλητές περιβάλλοντος)
-- express (το κύριο framework στο οποίο εγκαταστάθηκε η εφαρμογή)
-- mongoose (πρόσβαση στη βάση δεδομένων μέσω MongoDB, είτε τοπικά ή μέσω Atlas)
+### Used Dependencies:
+- dotenv (access to environment variables)
+- express (main application framework)
+- mongoose (database access through MongoDB, locally or using MongoDB Atlas)
 
-Έπειτα από την ολοκλήρωση της εγκατάστασης των εξαρτήσεων που απαιτούνται, δημιουργούναι αυτόματα:
+After installing required dependencies, the following files are created automatically:
 - package.json
 - package-lock.json
-- φάκελος node_modules (περιέχει τις λειτουργίες του Node.js)
+- node_modules folder (includes Node.js modules)
 
-### 5. Δημιουργία αρχείου server.js
+### 5. Create server.js file
 
-Το αρχείο server.js αποτελεί τον κύριο σκελετό εκτέλεσης της εφαρμογής.
+The server.js file is the main application component.
 
-Σε αυτό το αρχείο:
-- επιτυγχάνεται η σύνδεση με τη βάση δεδομένων
-- αποθηκεύεται το middleware `(ExpressJS)`
-- δηλώνονται οι διαδρομές των περιεχομένων του φακέλου, πχ αρχεία που ανήκουν στους υποφακέλους
-- εκκινείται ο server
+In this file:
+- database connected is being achieved
+- the `(ExpressJS)` middleware is being stored
+- folder content paths are being declared (ie subfolder files)
+- server is being launched
 
-### 6. Εκκίνηση server
+### 6. Server Launch
 
-Κατόπιν ολοκλήρωσης των παραπάνω βημάτων, πληκτρολογούμε την εντολή:
+After completing the steps above, type the following command:
 
     npm start
 
-εντός του τερματικού, για την εκκίνηση του server της εφαρμογής.
+inside the terminal, in order to launch the app.
 
-Εφόσον όλα έχουν ρυθμιστεί σωστά, θα εμφανιστεί μήνυμα επιτυχούς εκκίνησης στο τερματικό!!
+After everything has been set successfully, a message depicting successful launch will show up on the terminal!!
 
 ### 7. Επαλήθευση λειτουργίας εφαρμογής (προαιρετικό)
 
